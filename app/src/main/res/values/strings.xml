@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mobile number formatter</string>
+    <string name="title_phonenumberformatter">PhoneNumberFormatter</string>
+    <string name="nationality_prompt">Country </string>
+    <string-array name="nationality_arrays">
+        <item>Kenya</item>
+        <item>Uganda</item>
+        <item>Tanzania</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,3 @@
+include ':phonenumberformatter'
+include ':app'
+rootProject.name = "Mobile number formatter"
