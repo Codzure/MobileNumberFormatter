@@ -45,11 +45,10 @@ object PhoneNumberFormatter {
             return phone.replaceFirst("0".toRegex(), "256")
         }
 
-        if (country.equals("Tanzania")) {
-            return phone.replaceFirst("0".toRegex(), "255")
-        }
-        else
-            return phone.replaceFirst("0".toRegex(), "254")
+        return if (country.equals("Tanzania")) {
+            phone.replaceFirst("0".toRegex(), "255")
+        } else
+            phone.replaceFirst("0".toRegex(), "254")
     }
 
     private fun cleanPhoneNumber(phoneNumber: String): String {
